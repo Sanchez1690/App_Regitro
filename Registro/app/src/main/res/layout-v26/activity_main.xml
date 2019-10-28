@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etx_nombre"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="60dp"
+        android:autofillHints=""
+        android:background="@drawable/txt_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etx_empresa"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:background="@drawable/txt_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Empresa"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etx_nombre" />
+
+    <EditText
+        android:id="@+id/etx_telefono"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:background="@drawable/txt_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Telefono"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etx_email" />
+
+    <EditText
+        android:id="@+id/etx_email"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/txt_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etx_empresa" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="289dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/btn_uno"
+        android:onClick="Registrar"
+        android:text="@string/Registro"
+        android:textColor="@drawable/tx_btn_uno"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etx_telefono"
+        tools:text="@string/Registro" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
