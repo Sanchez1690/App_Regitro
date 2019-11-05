@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Motivo">
+        <item>Busco empleo</item>
+        <item>Quiero ser proveedor</item>
+        <item>Quiero quesadillas</item>
+        <item>Vine buscando cobre y encontre oro</item>
+    </string-array>
+
+</resources>
